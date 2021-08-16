@@ -15,7 +15,7 @@ test:
   database: AWS_test
 
 #     url: <%= ENV['DATABASE_URL'] %>
-#
+
 production:
   <<: *default
   database: AWS_production
